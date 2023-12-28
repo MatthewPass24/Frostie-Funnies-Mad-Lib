@@ -16,6 +16,8 @@ h1 {
     background-image: url("images/christmas\ background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: overlay;
+    background-color: #262c2c54;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -33,4 +35,64 @@ h1 {
 .container {
     width: 80%;
     margin: 0 auto;
+}
+
+header, footer {
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bolder;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+#madLibOutput {
+  padding: 10px;
+  text-align: left;
+}
+
+p {
+ color: white;
+ font-size: 30px;
+}
+
+.div1 {
+  background-color: transparent;
+  background-color: rgba(178, 192, 219, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0,0,0,.5);
+
+}
+
+.btncustom {
+  border: 4px solid #4f9bffc2;
+  background-color: white;
+  color: #4f9bffc2;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btncustom:hover {
+  border: 4px solid white;
+  background-color: #4f9bffc2;
+  color: white;
+  font-weight: bold;
+}
+
+
+.btncustom:active {
+  border: 4px solid white;
+  color: white;
+  font-weight: bold;
+}
+
+.btncustom:link {
+  border: 4px solid white;
+  color: white;
+  font-weight: bold;
 }
