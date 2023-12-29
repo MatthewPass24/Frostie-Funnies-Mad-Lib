@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script:400, 700');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@400;500&display=swap');
 .background {
     height: 100vh;
     width: 100%;
@@ -37,62 +38,35 @@ h1 {
     margin: 0 auto;
 }
 
-header, footer {
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
-  font-weight: bolder;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-
-#madLibOutput {
-  padding: 10px;
-  text-align: left;
-}
-
 p {
  color: white;
  font-size: 30px;
 }
 
-.div1 {
+.btnunique {
+  background-color: white;
+  color: rgba(85, 109, 161, 0.8);
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btnunique:hover {
+  background-color: rgba(85, 109, 161, 0.8);
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.btnunique:active {
+  color: white;
+}
+
+.btnunique:link {
+  color: white;
+}
+.text {
   background-color: transparent;
-  background-color: rgba(178, 192, 219, 0.8);
+  background-color: rgba(146, 164, 201, 0.8);
   border-radius: 10px;
   box-shadow: 0 10px 10px rgba(0,0,0,.5);
 
-}
-
-.btncustom {
-  border: 4px solid #4f9bffc2;
-  background-color: white;
-  color: #4f9bffc2;
-  font-weight: bold;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.btncustom:hover {
-  border: 4px solid white;
-  background-color: #4f9bffc2;
-  color: white;
-  font-weight: bold;
-}
-
-
-.btncustom:active {
-  border: 4px solid white;
-  color: white;
-  font-weight: bold;
-}
-
-.btncustom:link {
-  border: 4px solid white;
-  color: white;
-  font-weight: bold;
 }
